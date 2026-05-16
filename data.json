@@ -3,13 +3,8 @@
     {
       "id": "mandir",
       "category": "ज्ञान",
-      "tone": "yantra",
-      "icon": "mandir.png",
-      "symbol": "🕉️",
-      "keywords": "मंदिर मंदिर चित्रकूट दर्शन इतिहास स्थान पता यंत्रात्मक मंदिर शिवकाली",
       "title": "मंदिर के बारे में",
-      "desc": "शिवकाली 64 योगिनी मंदिर की परिकल्पना और दर्शन।",
-      "intro": "शिवकाली 64 योगिनी मंदिर, चित्रकूट एक ऐसी दिव्य परिकल्पना है जहाँ माँ शिवकाली के साथ 64 योगिनियाँ यंत्रात्मक स्वरूप में प्रतिष्ठित होंगी। यह स्थान भक्ति, शक्ति, साधना और सनातन ज्ञान को एक साथ अनुभव कराने के उद्देश्य से निर्मित किया जा रहा है।",
+      "intro": "शिवकाली 64 योगिनी मंदिर, चित्रकूट एक दिव्य परिकल्पना है जहाँ माँ शिवकाली के साथ 64 योगिनियाँ यंत्रात्मक स्वरूप में प्रतिष्ठित होंगी।",
       "blocks": [
         {
           "title": "मुख्य जानकारी",
@@ -22,60 +17,99 @@
         {
           "title": "मंदिर की विशेषता",
           "items": ["✨ विश्व का प्रथम यंत्रात्मक मंदिर", "💠 64 योगिनियाँ यंत्र रूप में", "🔱 शिव-शक्ति का अद्भुत संगम"]
-        },
-        {
-          "title": "दर्शन और मर्यादा",
-          "text": "मंदिर दर्शन शांत भाव, श्रद्धा और सात्विक आचरण के साथ करें। यहाँ पूजा, दीप दान, प्रसाद, सेवा और विशेष तिथियों की जानकारी आगे जोड़ी जाएगी।"
         }
       ]
     },
     {
       "id": "kali-upasana",
       "category": "उपासना",
-      "tone": "kali",
-      "icon": "kali.png",
-      "symbol": "🔱",
       "title": "काली उपासना",
-      "desc": "माँ काली की उपासना, मंत्र और पूजा क्रम।",
-      "intro": "माँ काली की उपासना भय, अज्ञान और नकारात्मकता से मुक्ति की साधना मानी जाती है। श्रद्धा और समर्पण से की गई आराधना साधक को साहस, रक्षा और आंतरिक शक्ति देती है।",
+      "intro": "माँ काली की उपासना भय, अज्ञान और नकारात्मकता से मुक्ति की साधना मानी जाती है।",
       "blocks": [
         { "title": "📿 बीज मंत्र", "text": "क्रीं" },
         { "title": "📖 पाठ और आरती", "items": [
           { "text": "🔱 माँ काली आरती", "link": "kali-aarti-detail" },
-          { "text": "📜 काली चालीसा", "link: "kali-chalisa-detail" },
-          { "text": "🛡️ काली कवच", "link: "kali-kavach-detail" },
-          { "text": "🧘 काली ध्यान मंत्र", "link: "kali-dhyan-detail" },
-          { "text": "📜 ककारादि काली शतनाम स्तोत्र", "link: "kakaradi-kali-shatnam-detail" },
-          { "text": "🕉️ कालिका अष्टकम", "link: "kalika-ashtakam-detail" }
+          { "text": "📜 काली चालीसा", "link": "kali-chalisa-detail" },
+          { "text": "🛡️ काली कवच", "link": "kali-kavach-detail" }
+        ]}
+      ]
+    },
+    {
+      "id": "shiv-upasana",
+      "category": "उपासना",
+      "title": "शिव उपासना",
+      "intro": "भगवान शिव की उपासना शांति, वैराग्य और आत्म-जागरण की भावना से जुड़ी है।",
+      "blocks": [
+        { "title": "📿 मुख्य मंत्र", "items": ["ॐ नमः शिवाय", "ॐ त्र्यम्बकं यजामहे..."] },
+        { "title": "📖 आरती और पाठ", "items": [
+          { "text": "🔱 भगवान शिव आरती", "link": "shiv-aarti-detail" },
+          { "text": "📜 शिव चालीसा", "link": "shiv-chalisa-detail" }
+        ]}
+      ]
+    },
+    {
+      "id": "das-mahavidya",
+      "category": "ज्ञान",
+      "title": "दस महाविद्या",
+      "intro": "दस महाविद्या देवी तत्त्व की दस गहन धाराएँ हैं।",
+      "blocks": [
+        { "title": "१. काली", "items": ["स्वरूप: गहरे काले वर्ण की", "मंत्र: ॐ क्रीं कालिकायै नमः"] },
+        { "title": "२. तारा", "items": ["स्वरूप: नील वर्ण की", "मंत्र: ॐ ह्रीं स्त्रीं हुं फट्"] }
+      ]
+    },
+    {
+      "id": "yogini",
+      "category": "ज्ञान",
+      "title": "64 योगिनी",
+      "intro": "यहाँ ६४ योगिनियों के नाम और उनके दिव्य गुणों का परिचय दिया गया है।",
+      "blocks": [
+        { "title": "योगिनी नामावली", "items": ["अक्षोभ्या", "रुक्षक करणी", "राक्षसी", "क्षपणा", "क्षमा", "पिंगाक्षी", "अक्षया"] }
+      ]
+    },
+    {
+      "id": "stotra-aarti",
+      "category": "सेवा",
+      "title": "स्तोत्र और आरती संग्रह",
+      "blocks": [
+        { "title": "माँ काली", "items": [
+          { "text": "🔱 माँ काली आरती", "link": "kali-aarti-detail" },
+          { "text": "📜 काली चालीसा", "link": "kali-chalisa-detail" }
         ]},
-        { "title": "सरल पूजा क्रम", "items": ["स्नान के बाद स्वच्छ दीप जलाएँ", "पुष्प, कुमकुम और प्रसाद अर्पित करें", "माँ काली का ध्यान कर मंत्र जाप करें", "क्षमा प्रार्थना और शांति पाठ से पूर्ण करें"] },
-        { "title": "🙏 उपासना भाव", "text": "माँ काली को करुणा की आद्या शक्ति के रूप में स्मरण करें। उपासना में भय नहीं, बल्कि माँ के प्रति पूर्ण विश्वास रखें।" }
+        { "title": "भगवान शिव", "items": [
+          { "text": "🔱 शिव आरती", "link": "shiv-aarti-detail" }
+        ]}
+      ]
+    },
+    {
+      "id": "kali-aarti-detail",
+      "category": "आरती",
+      "title": "🔱 माँ काली आरती",
+      "blocks": [
+        { "title": "आरती (अम्बे तू है जगदम्बे काली)", "text": "अम्बे तू है जगदम्बे काली, जय दुर्गे खप्पर वाली।\nतेरे ही गुण गावें भारती, ओ मैया हम सब उतारें तेरी आरती॥" }
+      ]
+    },
+    {
+      "id": "shiv-aarti-detail",
+      "category": "आरती",
+      "title": "🔱 भगवान शिव आरती",
+      "blocks": [
+        { "title": "पाठ", "text": "जय शिव ओंकारा, प्रभु हर शिव ओंकारा।\nब्रह्मा विष्णु सदाशिव अर्द्धांगी धारा॥" }
       ]
     },
     {
       "id": "books-pdf",
       "category": "ज्ञान",
-      "tone": "books",
-      "icon": "books.png",
-      "symbol": "📚",
       "title": "पुस्तकें और PDF",
-      "desc": "पूजा पुस्तिका और ग्रंथ संग्रह।",
-      "intro": "भक्तों के लिए प्रमुख स्तोत्र, कवच और पाठ की PDF फ़ाइलें यहाँ उपलब्ध हैं।",
       "blocks": [
-        {
-          "title": "🔱 माँ काली और महाविद्या",
-          "items": [
-            { "text": "📥 दक्षिणा कालिका कवचम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/dakshina-kalika-kavacham.pdf" },
-            { "text": "📥 काली शतनाम स्तोत्रम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/kali-shatanama-stotram.pdf" },
-            { "text": "📥 ककारादि काली शतनाम स्तोत्रम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/kakaradi-kali-shatanam.pdf" }
-          ]
-        }
+        { "title": "फाइलें", "items": [
+          { "text": "📥 दक्षिणा कालिका कवचम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/dakshina-kalika-kavacham.pdf" }
+        ]}
       ]
     }
   ],
   "categoryMap": [
-    { "id": "upasana", "title": "🔱 उपासना", "desc": "पूजा, जप और साधना", "sections": ["kali-upasana", "shiv-upasana", "nitya-puja", "sadhana"] },
-    { "id": "gyan", "title": "📚 ज्ञान", "desc": "मंदिर, महाविद्या और योगिनी", "sections": ["mandir", "das-mahavidya", "yogini", "books-pdf"] },
-    { "id": "seva", "title": "💳 सेवा", "desc": "आरती, गैलरी और दान", "sections": ["stotra-aarti", "gallery", "donation", "agami-karyakram"] }
+    { "id": "upasana", "title": "🔱 उपासना", "sections": ["kali-upasana", "shiv-upasana", "nitya-puja", "sadhana"] },
+    { "id": "gyan", "title": "📚 ज्ञान", "sections": ["mandir", "das-mahavidya", "yogini", "books-pdf"] },
+    { "id": "seva", "title": "💳 सेवा", "sections": ["stotra-aarti", "gallery", "donation", "agami-karyakram"] }
   ]
 }
