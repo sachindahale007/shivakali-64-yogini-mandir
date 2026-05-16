@@ -3,7 +3,12 @@
     {
       "id": "mandir",
       "category": "ज्ञान",
+      "tone": "yantra",
+      "icon": "mandir.png",
+      "symbol": "🕉️",
+      "keywords": "मंदिर चित्रकूट दर्शन स्थान",
       "title": "मंदिर के बारे में",
+      "desc": "शिवकाली 64 योगिनी मंदिर की परिकल्पना और दर्शन।",
       "intro": "शिवकाली 64 योगिनी मंदिर, चित्रकूट एक दिव्य परिकल्पना है जहाँ माँ शिवकाली के साथ 64 योगिनियाँ यंत्रात्मक स्वरूप में प्रतिष्ठित होंगी।",
       "blocks": [
         {
@@ -23,88 +28,149 @@
     {
       "id": "kali-upasana",
       "category": "उपासना",
+      "tone": "kali",
+      "icon": "kali.png",
+      "symbol": "🔱",
       "title": "काली उपासना",
+      "desc": "माँ काली की उपासना, मंत्र और पूजा क्रम।",
       "intro": "माँ काली की उपासना भय, अज्ञान और नकारात्मकता से मुक्ति की साधना मानी जाती है।",
       "blocks": [
         { "title": "📿 बीज मंत्र", "text": "क्रीं" },
         { "title": "📖 पाठ और आरती", "items": [
           { "text": "🔱 माँ काली आरती", "link": "kali-aarti-detail" },
           { "text": "📜 काली चालीसा", "link": "kali-chalisa-detail" },
-          { "text": "🛡️ काली कवच", "link": "kali-kavach-detail" }
+          { "text": "🛡️ काली कवच", "link": "kali-kavach-detail" },
+          { "text": "🧘 काली ध्यान मंत्र", "link": "kali-dhyan-detail" },
+          { "text": "📜 ककारादि काली शतनाम स्तोत्र", "link": "kakaradi-kali-shatnam-detail" },
+          { "text": "🕉️ कालika अष्टकम", "link": "kalika-ashtakam-detail" }
         ]}
       ]
     },
     {
       "id": "shiv-upasana",
       "category": "उपासना",
+      "tone": "shiv",
+      "icon": "shiv.png",
+      "symbol": "🕉️",
       "title": "शिव उपासना",
+      "desc": "महादेव मंत्र, अभिषेक और ध्यान।",
       "intro": "भगवान शिव की उपासना शांति, वैराग्य और आत्म-जागरण की भावना से जुड़ी है।",
       "blocks": [
-        { "title": "📿 मुख्य मंत्र", "items": ["ॐ नमः शिवाय", "ॐ त्र्यम्बकं यजामहे..."] },
+        { "title": "📿 मुख्य मंत्र", "items": ["ॐ नमः शिवाय", "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्।"] },
         { "title": "📖 आरती और पाठ", "items": [
           { "text": "🔱 भगवान शिव आरती", "link": "shiv-aarti-detail" },
-          { "text": "📜 शिव चालीसा", "link": "shiv-chalisa-detail" }
+          { "text": "📜 शिव चालीसा", "link": "shiv-chalisa-detail" },
+          { "text": "🕉️ शिव रुद्राष्टकम", "link": "rudrashtakam-detail" }
         ]}
       ]
     },
     {
       "id": "das-mahavidya",
       "category": "ज्ञान",
+      "tone": "mahavidya",
+      "icon": "mahavidya.png",
       "title": "दस महाविद्या",
-      "intro": "दस महाविद्या देवी तत्त्व की दस गहन धाराएँ हैं।",
+      "desc": "देवी के दस महाशक्ति रूपों का परिचय।",
       "blocks": [
-        { "title": "१. काली", "items": ["स्वरूप: गहरे काले वर्ण की", "मंत्र: ॐ क्रीं कालिकायै नमः"] },
-        { "title": "२. तारा", "items": ["स्वरूप: नील वर्ण की", "मंत्र: ॐ ह्रीं स्त्रीं हुं फट्"] }
+        { "title": "१. काली", "items": ["स्वरूप: गहरे काले वर्ण की", "बीज: क्रीं | मंत्र: ॐ क्रीं कालिकायै नमः"] },
+        { "title": "२. तारा", "items": ["स्वरूप: नील वर्ण की", "बीज: ह्रीं | मंत्र: ॐ ह्रीं स्त्रीं हुं फट्"] },
+        { "title": "३. त्रिपुर सुंदरी", "items": ["शक्ति: सौंदर्य और आनंद", "मंत्र: ॐ ऐं ह्रीं श्रीं श्री ललितायै नमः"] }
       ]
     },
     {
       "id": "yogini",
       "category": "ज्ञान",
+      "tone": "yogini",
+      "icon": "yogini.png",
       "title": "64 योगिनी",
       "intro": "यहाँ ६४ योगिनियों के नाम और उनके दिव्य गुणों का परिचय दिया गया है।",
       "blocks": [
-        { "title": "योगिनी नामावली", "items": ["अक्षोभ्या", "रुक्षक करणी", "राक्षसी", "क्षपणा", "क्षमा", "पिंगाक्षी", "अक्षया"] }
+        { "title": "६४ योगिनी नामावली", "items": ["अक्षोभ्या", "रुक्षक करणी", "राक्षसी", "क्षपणा", "क्षमा", "पिंगाक्षी", "अक्षया", "इला", "नीलालया", "लोला", "रक्ता"] }
+      ]
+    },
+    {
+      "id": "nitya-puja",
+      "category": "उपासना",
+      "icon": "puja.png",
+      "title": "नित्य पूजा",
+      "desc": "दैनिक नित्य पूजा एवं पाठ विधि।",
+      "blocks": [
+        { "title": "१. पवित्रीकरण", "text": "दाएं हाथ में जल लेकर शुद्धिकरण करें।" },
+        { "title": "२. दीप पूजन", "text": "भगवान के सामने शुद्ध घी का दीपक जलाएं।" }
+      ]
+    },
+    {
+      "id": "sadhana",
+      "category": "उपासना",
+      "icon": "sadhana.png",
+      "title": "साधना",
+      "desc": "जप, ध्यान और नियम मार्गदर्शन।",
+      "blocks": [
+        { "title": "नियम", "items": ["निश्चित समय और स्थान", "गुरु और इष्ट का स्मरण", "एकाग्रता"] }
       ]
     },
     {
       "id": "stotra-aarti",
       "category": "सेवा",
-      "title": "स्तोत्र और आरती संग्रह",
+      "icon": "stotra.png",
+      "title": "स्तोत्र और आरती",
       "blocks": [
-        { "title": "माँ काली", "items": [
-          { "text": "🔱 माँ काली आरती", "link": "kali-aarti-detail" },
-          { "text": "📜 काली चालीसा", "link": "kali-chalisa-detail" }
-        ]},
-        { "title": "भगवान शिव", "items": [
-          { "text": "🔱 शिव आरती", "link": "shiv-aarti-detail" }
-        ]}
-      ]
-    },
-    {
-      "id": "kali-aarti-detail",
-      "category": "आरती",
-      "title": "🔱 माँ काली आरती",
-      "blocks": [
-        { "title": "आरती (अम्बे तू है जगदम्बे काली)", "text": "अम्बे तू है जगदम्बे काली, जय दुर्गे खप्पर वाली।\nतेरे ही गुण गावें भारती, ओ मैया हम सब उतारें तेरी आरती॥" }
-      ]
-    },
-    {
-      "id": "shiv-aarti-detail",
-      "category": "आरती",
-      "title": "🔱 भगवान शिव आरती",
-      "blocks": [
-        { "title": "पाठ", "text": "जय शिव ओंकारा, प्रभु हर शिव ओंकारा।\nब्रह्मा विष्णु सदाशिव अर्द्धांगी धारा॥" }
+        { "title": "माँ काली", "items": [{ "text": "आरती", "link": "kali-aarti-detail" }, { "text": "चालीसा", "link": "kali-chalisa-detail" }] }
       ]
     },
     {
       "id": "books-pdf",
       "category": "ज्ञान",
+      "icon": "books.png",
       "title": "पुस्तकें और PDF",
       "blocks": [
-        { "title": "फाइलें", "items": [
-          { "text": "📥 दक्षिणा कालिका कवचम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/dakshina-kalika-kavacham.pdf" }
-        ]}
+        {
+          "title": "फाइलें",
+          "items": [
+            { "text": "📥 दक्षिणा कालिका कवचम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/dakshina-kalika-kavacham.pdf" },
+            { "text": "📥 काली शतनाम स्तोत्रम", "pdfUrl": "https://raw.githubusercontent.com/sachindahale007/shivakali-64-yogini-mandir/main/kali-shatanama-stotram.pdf" }
+          ]
+        }
       ]
+    },
+    {
+      "id": "donation",
+      "category": "सेवा",
+      "icon": "donation.png",
+      "title": "दान और सहयोग",
+      "blocks": [{ "title": "सहयोग", "text": "मंदिर निर्माण में सहयोग के लिए UPI ID का उपयोग करें।" }]
+    },
+    {
+      "id": "agami-karyakram",
+      "category": "सेवा",
+      "icon": "events.png",
+      "title": "आगामी कार्यक्रम",
+      "blocks": [{ "title": "कार्यक्रम", "items": ["अमावस्या पूजा", "नवरात्रि उत्सव"] }]
+    },
+    {
+      "id": "gallery",
+      "category": "सेवा",
+      "icon": "gallery.png",
+      "title": "फोटो गैलरी",
+      "blocks": [{ "title": "वीडियो", "items": [{ "text": "यूट्यूब चैनल", "url": "https://www.youtube.com/@CultureandSpirituality" }] }]
+    },
+    {
+      "id": "kali-aarti-detail",
+      "category": "आरती",
+      "title": "🔱 माँ काली आरती",
+      "blocks": [{ "title": "आरती", "text": "अम्बे तू है जगदम्बे काली, जय दुर्गे खप्पर वाली...\n(यहाँ आप पूरा पाठ लिख सकते हैं)" }]
+    },
+    {
+      "id": "shiv-aarti-detail",
+      "category": "आरती",
+      "title": "🔱 भगवान शिव आरती",
+      "blocks": [{ "title": "आरती", "text": "जय शिव ओंकारा, प्रभु हर शिव ओंकारा...\n(यहाँ आप पूरा पाठ लिख सकते हैं)" }]
+    },
+    {
+      "id": "mandir-address",
+      "category": "मंदिर",
+      "title": "📍 मंदिर का पता",
+      "blocks": [{ "title": "विवरण", "text": "शिवकाली 64 योगिनी मंदिर, ग्राम - चित्रकूट।" }]
     }
   ],
   "categoryMap": [
